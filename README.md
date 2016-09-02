@@ -5,14 +5,10 @@ Sometimes I need to develop project from scratch with atmega8 chip onboard using
 
 With Internal oscillator, so we have PB6 and PB7 as I/O PIN. To make these pin available with arduino IDE we need to modify pins_arduino.h
 
-  (oscl)<br>
-  /    \<br>
-PB6    PB7
-
-  Newly available pins are mapped as:
+Newly available pins are mapped as:
   
-  PB6 = Arduino Pin 20
-  PB7 = Arduino Pin 21
+PB6 = Arduino Pin 20<br>
+PB7 = Arduino Pin 21
 
 Actually pins_arduino.h design for atmega328 but also works with atmega8, pins are same.
 
